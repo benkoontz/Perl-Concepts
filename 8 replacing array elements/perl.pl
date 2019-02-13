@@ -6,7 +6,8 @@
 
 print "@actors\n"; # displays elements in actors variable
 
-# first parameter is the name of array to remove elements, second is the the offset position, third argument is number of elements to replace, last argument is array to replace elements with 
+# first parameter is the name of array to remove elements, second is the the offset position, 
+# third argument is number of elements to replace, last argument is array to replace elements with 
 splice(@actors, 1, 2, @new); # replaces brad pitt and will smith with leonardo dica
 
 print "@actors\n";
