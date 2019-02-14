@@ -9,6 +9,7 @@
 %players=(1=>"Novak", 2=>"Roger", 3=>"Andy", 4=>"Kei"); # hash for players
 
 # use arrays to slice the hash
-@my_list=@players{2..4}; # gets roger, andy, and kei
+#@my_list=@players{2..4}; # gets roger, andy, and kei
+@my_list=@players{2,4}; # gets roger, and kei
 
 print "Top tenis players in the world: @my_list\n";
