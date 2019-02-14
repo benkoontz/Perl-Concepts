@@ -1,4 +1,4 @@
-# Receiving input from users
+# copying files
 
 open(SOURCE, "<C:/Users/Ron/Documents/Perl/dogs.txt"); # < is for reading
 open(DESTINATION, ">C:/Users/Ron/Documents/Perl/Folder/Ben.txt"); # > is for writing
